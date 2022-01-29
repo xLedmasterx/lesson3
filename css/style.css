@@ -1,0 +1,39 @@
+@import "null.css";
+
+/* Селектор тега h1*/
+h1 {
+	color: red;
+}
+/* Перечисление тегов h1 и h2*/
+h2,
+h3 {
+	color: green;
+}
+/* Обращение к обьекту с тегом div и тегом h4*/
+div h4 {
+	color: blue;
+}
+/* Обращение к обьекту с клаcсом header и с тегом h5*/
+.header h5 {
+	color: darkcyan;
+}
+/* Обращение к обьекту с клаcсом header и header__header*/
+.header .header__header {
+	color: sienna;
+}
+/* Обращение к обьектам с клаcсом text и paragraph одновременно*/
+.text.paragrafh {
+	color: tomato;
+}
+/* Обращение ко всем тегам span внутри тега p*/
+p span {
+	color: turquoise;
+}
+/* Обращение ко всем тегам p внутри класса block*/
+.block p {
+	color: fuchsia;
+}
+/* Обращение к тегу span внутри класса block__text*/
+.block__text span {
+	color: gray;
+}
