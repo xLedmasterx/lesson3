@@ -37,3 +37,15 @@ p span {
 .block__text span {
 	color: gray;
 }
+/* Обращение к первому следующему обьекту p*/
+.next__next + p {
+	color: crimson;
+}
+/* Обращение к следующим обьектам p */
+.next__next1 ~ p {
+	color: forestgreen;
+}
+/* Обращение к первому p первого уровня вложенности*/
+.block__end > p {
+	color: gold;
+}
